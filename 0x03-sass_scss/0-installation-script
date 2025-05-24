@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Steps to install SASS
+
+# 1. Ensure Node.js and npm are installed
+echo "Checking for Node.js and npm..."
+node -v
+npm -v
+
+# 2. Install SASS globally using npm
+echo "Installing SASS version 3.7.4..."
+npm install -g sass@3.7.4
+
+# 3. Verify SASS installation
+echo "Verifying SASS installation..."
+sass --version
+
+
+echo "SASS installation completed!"
