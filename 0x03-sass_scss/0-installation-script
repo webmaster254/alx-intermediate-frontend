@@ -8,12 +8,12 @@ node -v
 npm -v
 
 # 2. Install SASS globally using npm
-echo "Installing SASS version 3.7.4..."
-npm install -g sass@3.7.4
+echo "Installing SASS locally..."
+npm install --save-dev sass
 
 # 3. Verify SASS installation
 echo "Verifying SASS installation..."
-sass --version
+npx sass --version
 
 
 echo "SASS installation completed!"
